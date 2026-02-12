@@ -182,3 +182,45 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+.gifs-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1100px
+}
+.responsive-gif{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15)
+}
+@media (max-width: 768px){
+     .responsive-gif{
+         max-width: 90%;
+         height: auto
+     }
+}
+.videos-gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+.responsive-video{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+@media (max-width: 768px){
+     .responsive-video{
+         max-width: 90%;
+         height: auto;
+     }
+}
