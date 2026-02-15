@@ -131,15 +131,25 @@ header {
     border-radius: 10px;
 } 
 .contact-form label {
-    margin-bottom: 10px;
-    font-weight: bold;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    letter-spacing: 0.5px;
 }
 .contact-form input, .contact-form textarea {
-    padding: 10px;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 18px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 6px;
     width: 100%;
+    transition: 0.3s ease;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #a0db31;
+    box-shadow: 0 0 5px rgba(160, 219, 49, 0.5);
+    outline: none;
 }
 .contact-form button {
     margin-bottom: 20px;
