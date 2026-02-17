@@ -60,10 +60,10 @@ header {
     list-style: none;
     gap: 30px;
 }
-.navlinks li {
+.nav-links li {
     list-style: none;
 }
-.navlinks a {
+.nav-links a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
