@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     hamburguer.addEventListener('click', () => {
         nav.classList.toggle('nav-active');
+        hamburguer.classList.toggle('toggle');
     });
 });
 function adjustTextSize() {

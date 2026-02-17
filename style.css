@@ -24,8 +24,8 @@ h2{
 
 .responsive-img {
     width: 100%;
-    max-width: 300px;   /* CONTROLA O TAMANHO */
-    height: 200px;      /* ALTURA FIXA */
+    max-width: 300px;
+    height: 200px;
     object-fit: cover;  
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
@@ -47,7 +47,8 @@ header {
     align-items: center;
     background: linear-gradient(90deg, #6b8e23, #7aa923);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    padding: 15px 40px;
+    padding: 15px 30px;
+    position: relative;
 }
 .logo {
     font-size: 1.8rem;
@@ -68,7 +69,7 @@ header {
     text-decoration: none;
     font-weight: 500;
     position: relative;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 .nav-links a::after {
     content: "";
@@ -93,11 +94,21 @@ header {
     cursor: pointer;
 }
 .hamburguer div {
-    width: 25px;
+    width: 28px;
     height: 3px;
     background-color: #fff;
-    margin: 5px;
-    transition: 0.3s;
+    margin: 6px;
+    border-radius: 3px;
+    transition: 0.4s ease;
+}
+.hamburguer.toggle .linha1 {
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+.hamburguer.toggle .linha2 {
+    opacity: 0;
+}
+.hamburguer.toggle .linha3 {
+    transform: rotate(45deg) translate(-6px, -6px);
 }
 @media (max-width: 768px) {
     .navbar {
@@ -119,7 +130,7 @@ header {
         display: flex;
     }
     .nav-links li {
-        margin: 15px 0;
+        margin: 20px 0;
     }
     .hamburguer {
         display: block;
