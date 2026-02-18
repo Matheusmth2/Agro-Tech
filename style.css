@@ -224,7 +224,7 @@ header {
 .next {
     right: 10px;
 }
-.dots {
+.carrousel-dots{
     text-align: center;
     padding: 10px;
 }
