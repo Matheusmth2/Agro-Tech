@@ -2,6 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f8faf7;
 }
 section{
     padding: 20px 20px;
@@ -51,7 +52,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(90deg, #6b8e23, #7aa923);
+    backdrop-filter: blur(7px);
+    background: rgba(107, 142, 35, 0.85);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     padding: 15px 30px;
     position: relative;
@@ -175,12 +177,18 @@ header {
 }
 .contact-form button {
     margin-bottom: 20px;
-    padding: 10px;
-    background-color: #a0db31;
+    padding: 12px;
+    background: linear-gradient(90deg, #6b8e23, #a0db31);
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.contact-form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
 }
 @media (max-width: 768px) {
     .contact-form {
@@ -192,6 +200,8 @@ header {
     max-width: 900px;
     margin: 40px auto;
     overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 .carrousel {
     display: flex;
