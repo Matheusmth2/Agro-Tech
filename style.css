@@ -353,6 +353,14 @@ footer {
          height: auto
      }
 }
+#videos{
+    background-image: url("imagens/fundo.jpg"); /* coloque sua imagem aqui */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: white; /* deixa o texto visível */
+}
 .videos-gallery{
     display: flex;
     justify-content: center;
