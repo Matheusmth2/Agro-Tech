@@ -354,12 +354,12 @@ footer {
      }
 }
 #videos{
-    background-image: url("imagens/fundo.jpg"); /* coloque sua imagem aqui */
+    background-image: url("imagens/fundo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 60px 20px;
-    color: white; /* deixa o texto visível */
+    color: white;
 }
 .videos-gallery{
     display: flex;
