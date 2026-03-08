@@ -201,6 +201,7 @@ header {
     margin: 40px auto;
     overflow: hidden;
     border-radius: 12px;
+    background: rgba(107, 142, 35, 0.85);
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 .carrousel {
@@ -230,9 +231,13 @@ header {
 }
 .prev {
     left: 10px;
+    background-color: #717171;
+    border-radius: 25%;
 }
 .next {
     right: 10px;
+    background-color: #717171;
+    border-radius: 25%;
 }
 .carrousel-dots{
     text-align: center;
