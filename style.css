@@ -283,6 +283,7 @@ header {
 @media (max-width: 768px) {
     .pricing-table {
         border: none;
+        background: linear-gradient(90deg, #6b8e23, #a0db31);
     }
     .pricing-table thead {
         display: none;
